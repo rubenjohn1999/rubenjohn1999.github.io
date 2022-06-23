@@ -69,7 +69,7 @@
 											<ul>
 												<li>Developed a novel iterative back-translation style approach to augment data for Automatic Speech Recognition (ASR) and Text to Speech (TTS) for Malayalam, a low resource Dravidian language</li>
 												<li>Adapted back-translation style data augmentation technique from machine translation to speech processing by leveraging speech-only data and text-only data to create a pseudo-parallel corpus for both ASR and TTS training</li>
-												<li>Speech-only data was fed to the ASR model trained on the limited parallel data, whose output used to create a pseudo-parallel corpus to be used as the input to fine-tune TTS model in the next iteration and vice versa</li>
+												<li>Speech-only data was fed to the ASR model trained on the limited parallel data, whose output was used to create a pseudo-parallel corpus to be used as the input to fine-tune TTS model in the next iteration and vice versa</li>
 												<li>Implemented a conformer-based ASR model with linear fusion of HuBERT and spectrum-based features. TTS model was a combination of Glow-TTS and Hifi-GAN</li>
 												<li>Achieved up to <b>6.91%</b> and <b>10.87%</b> reduction in Word Error Rate (WER) and Character Error Rate (CER) respectively for ASR and a <b>2.91%</b> improvement in Mel-cepstral distortion (MCD) for TTS upon using just 3000 monolingual text sentences out of a possible 600,000 due to resource constraints</li>
 												<li>Poster <a target="_blank" rel="noopener noreferrer" href="assets/11737_Poster.pdf">here</a></li>
