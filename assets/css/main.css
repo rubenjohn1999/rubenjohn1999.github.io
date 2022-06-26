@@ -2720,11 +2720,11 @@ input, select, textarea {
 			}
 
 		#header header p {
-			color: #b7eadc;
+			color: #b32e29;
 		}
 
 		#header a {
-			color: #d2f2e9;
+			color: #b32e29;
 		}
 
 			#header a:hover {
@@ -2772,7 +2772,7 @@ input, select, textarea {
 			}
 
 				#header > footer .icons li a {
-					color: #b7eadc;
+					color: #b32e29;
 				}
 
 		#header > nav {
