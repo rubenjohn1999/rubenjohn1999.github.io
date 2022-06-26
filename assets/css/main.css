@@ -2720,11 +2720,11 @@ input, select, textarea {
 			}
 
 		#header header p {
-			color: #b32e29;
+			color: #e1f2d8;
 		}
 
 		#header a {
-			color: #b32e29;
+			color: #e1f2d8;
 		}
 
 			#header a:hover {
@@ -2772,7 +2772,7 @@ input, select, textarea {
 			}
 
 				#header > footer .icons li a {
-					color: #b32e29;
+					color: #e1f2d8;
 				}
 
 		#header > nav {
@@ -2789,7 +2789,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #b32e29;
+					border-top: solid 2px #e1f2d8;
 					display: block;
 					padding: 0;
 				}
@@ -2808,7 +2808,7 @@ input, select, textarea {
 
 						#header > nav ul li a.active {
 							background: #fff;
-							color: #b32e29 !important;
+							color: #e1f2d8 !important;
 						}
 
 					#header > nav ul li:first-child {
@@ -2853,7 +2853,7 @@ input, select, textarea {
 		}
 
 			#footer .copyright li {
-				border-left: solid 1px #b32e29;
+				border-left: solid 1px #e1f2d8;
 				display: inline-block;
 				font-size: 0.8em;
 				margin-left: 1em;
