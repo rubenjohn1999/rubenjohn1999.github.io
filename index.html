@@ -65,17 +65,19 @@
 									<h3 style="color:Black;">Projects</h3>
 									<div class="container">
 										 <h4> <u> <i>2022</i> </u> </h4>
-
-										<details> <summary> Accelerated Cloud for AL – AutoML </summary>
+										<h4>Accelerated Cloud for AL – AutoML</h4>
+										<details> <summary>  </summary>
 											<ul>
 												<li> Developed an AutoML orchestration engine that conducts pipeline optimization, compute resource identification, job scheduling and automatic logging and bookkeeping</li>
-												<li> System allows users to submit details of the pipeline they’d like to experiment and AutoML provides them with an optimal configuration in terms of model performance, runtime and cost while automating the intermediate steps of the experiments under the hood</li>
+												<li> System allows users to submit details of the pipeline they’d like to experiment that includes details about the data, ML models and hyper-parameters they would like to explore and the AutoML system provides them with an optimal configuration in terms of model performance, runtime and cost while automating the intermediate steps of the experiments under the hood</li>
 												<li> AutoML automates the Machine Learning workflow by providing intelligent solutions for model exploration and resource provision</li>
 												<li> Currently supports varieties of Question Answering pipelines </li>
+												<li> Developed a recursive search exploration hyper-parameter tuning strategy for AutoML that identifies the optimal hyper-parameter configuration by identifying smaller sub-spaces of the hyper-parameters at each step, resulting in an average of <b>54%</b> reduction in AutoML runtime</li>
+												<li> Implemented a caching mechanism that caches the results of stages of experimentation (data processing, ML modelling etc) allowing the system to re-use results when the user submits similar experimentation jobs   </li>
 											</ul>
 											</details>
-
-										<details> <summary> Iterative Back-Translation-Style Data Augmentation for Low Resource ASR and TTS </summary>
+										<h4>Iterative Back-Translation-Style Data Augmentation for Low Resource ASR and TTS</h4>
+										<details> <summary>  </summary>
 											<ul>
 												<li>Developed a novel iterative back-translation style approach to augment data for Automatic Speech Recognition (ASR) and Text to Speech (TTS) for Malayalam, a low resource Dravidian language</li>
 												<li>Adapted back-translation style data augmentation technique from machine translation to speech processing by leveraging speech-only data and text-only data to create a pseudo-parallel corpus for both ASR and TTS training</li>
@@ -85,15 +87,17 @@
 												<li>Poster <a target="_blank" rel="noopener noreferrer" href="assets/11737_Poster.pdf">here</a></li>
 											</ul>
 										</details>
+										<h4>Multilingual Speech Recognition </h4>
 
-										<details> <summary>Multilingual Speech Recognition </summary>
+										<details> <summary></summary>
 											<ul>
 												<li>Contributed to the <a target="_blank" rel="noopener noreferrer" href="https://github.com/espnet/espnet">ESPnet</a>  open source toolkit by implementing Malayalam(low resource Dravidian Language) ASR with only around 6 hours of parallel speech-text data</li>
 												<li>Achieved WER and CER of <b>39.2</b> and <b>10.4</b> respectively for a conformer base model</li>
 												<li>Improved the WER and CER of the base model by <b>9.2% </b>and <b>13.4%</b> respectively by implementing a learnable linear fusion of spectrum based and HuBERT self-supervised learning features</li>
 											</ul>
 										</details>
-										<details> <summary>Multilingual Translation</summary>
+										<h4>Multilingual Translation</h4>
+										<details> <summary></summary>
 											<ul>
 												<li>Developed Neural Machine Translation (NMT) system for two low resource languages Azerbaijani and Belarus, to and from English</li>
 												<li>Implemented and improved upon baseline bilingual and multilingual models for low resource NMT using the <a target="_blank" rel="noopener noreferrer" href="https://github.com/facebookresearch/fairseq">fairseq</a> MT framework </li>
@@ -101,7 +105,8 @@
 												<li>Achieved a 3 point increase in BLEU score with the help of above-mentioned techniques</li>
 											</ul>
 										</details>
-										<details> <summary>Multilingual Sequence labeling</summary>
+										<h4>Multilingual Sequence labeling</h4>
+										<details> <summary></summary>
 											<ul>
 												<li>Developed a Bi-LSTM based POS Tagging system with mBERT and Conditional Random Field layers for various languages</li>
 												<li>Studied the effect of vocabulary size on POS Tagging performance</li>
@@ -111,7 +116,8 @@
 
 											</ul>
 										</details>
-										<details> <summary>Power plant Machine Learning Pipeline using Spark</summary>
+										<h4>Power plant Machine Learning Pipeline using Spark</h4>
+										<details> <summary></summary>
 											<ul>
 												<li>Developed an end-to-end pipeline consisting of ETL, EDA and ML model tuning and evaluation to accurately predict power output given a set of environmental readings</li>
 												<li>Performed ETL using PySpark and PySparkSQL</li>
@@ -119,7 +125,8 @@
 												<li>Performed model tuning and evaluation using CrossValidator and ParamGridBuilder APIs resulted in the best model improving base model RMSE from 4.56 to <b>3.39</b> with coefficient of determination of <b>0.96</b></li>
 											</ul>
 										</details>
-										<details> <summary>Covid-19 Dashboard: Streamlit web-app </summary>
+										<h4>Covid-19 Dashboard: Streamlit web-app </h4>
+										<details> <summary></summary>
 											<ul>
 												<li>An interactive web application developed using Streamlit, Altair and Python that analyzes the affect of COVID-19 on different states in the US and how they approached the COVID-19 pandemic</li>
 												<li>The dashboard empowers the viewer with insights and answers to questions related to the impact of COVID-19 on existing medical infrastructure and whether a strict government policy response entails lower morbidity</li>
@@ -130,7 +137,8 @@
 										</details>
 									</div>
 									<div class="container"><h4> <u> <i>2019</i></u> </h4>
-										<details> <summary>Twitter Analytics Web Service</summary>
+										<h4>Twitter Analytics Web Service</h4>
+										<details> <summary></summary>
 											<ul>
 												<li>Developed a fully managed fault-tolerant multi-tier web service with Amazon EKS and RDS</li>
 												<li>Worked in a team of 3 to build a Vertx-based web application that recommends similar Twitter users</li>
@@ -140,7 +148,8 @@
 												<li>Ranked 5th in terms of performance/cost ratio in a live test spanning ~3 hrs</li>
 											</ul>
 										</details>
-										<details> <summary>Machine Learning on the Cloud</summary>
+										<h4>Machine Learning on the Cloud</h4>
+										<details> <summary></summary>
 											<ul>
 												<li>Trained and deployed a machine learning model (XGBoost) on the Google AI Platform to predict cab fares in NYC </li>
 												<li>Processed ride requests in the form of audio and images leveraging a pipeline of cloud ML APIs such as Cloud Text-to-Speech, Cloud Speech-to-Text, Cloud NLP, Directions and AutoML Vision offered by GCP</li>
@@ -148,7 +157,8 @@
 												<li>Deployed an end-to-end solution on Google App Engine to predict cab fare by combining input pipeline and trained model</li>
 											</ul>
 										</details>
-										<details> <summary>Syntactic Question Answering system</summary>
+										<h4>Syntactic Question Answering system</h4>
+										<details> <summary></summary>
 											<ul>
 												<li>Developed a Syntactic rule-based QA system</li>
 												<li>Collaborated with a team of 3 to build a rule-based Question Answering system for Wikipedia articles</li>
@@ -156,13 +166,15 @@
 												<li>Performed question to declarative sentence conversion, co-reference resolution, sentence vector similarity, named-entity recognition and lexical analysis to enhance fluency and conciseness of generated answers</li>
 											</ul>
 										</details>
-										<details> <summary>Question Answering System on SQuAD</summary>
+										<h4>Question Answering System on SQuAD</h4>
+										<details> <summary></summary>
 											<ul>
 												<li>Developed NLP processing pipelines to train and evaluate multiple machine learning models using NLTK library for cleaning and feature extraction of 100,000 questions and context paragraphs</li>
 												<li>Fine-tuned pre-trained BERT model using PyTorch and deployed final model to a public endpoint through Microsoft Azure Machine Learning Studio</li>
 											</ul>
 										</details>
-										<details> <summary>Rating Prediction for Amazon’s Product Reviews</summary>
+										<h4>Rating Prediction for Amazon’s Product Reviews</h4>
+										<details> <summary></summary>
 											<ul>
 												<li>Built a multi-class logistic regression model to predict product ratings from 100,000 reviews</li>
 												<li>Performed Data cleaning, exploratory data analysis, feature construction using TfIdf Vectorizer and oversampling to deal with class imbalance of Review Ratings</li>
@@ -171,21 +183,24 @@
 										</details>
 									</div>
 									<div class="container"><h4> <u> <i>2018</i> </u></h4>
+										<h4>Neural Machine Translation (NMT) from English to Hindi</h4>
 
-										<details> <summary>Neural Machine Translation (NMT) from English to Hindi</summary>
+										<details> <summary></summary>
 											<ul>
 												<li>Developed a Seq2Seq model for NMT from English to Hindi</li>
 												<li>Employed supervised __Encoder-Decoder__ architecture facilitated by an enhanced version of Bahdanau’s attention mechanism and contextual embeddings - Vecmap</li>
 												<li>Final model attained a BLEU score of <b>35</b></li>
 											</ul>
 										</details>
-										<details> <summary>Rideshare - A Cloud Based Application</summary>
+										<h4>Rideshare - A Cloud Based Application</h4>
+										<details> <summary></summary>
 											<ul>
 												<li>Developed backend for a cloud-based car-pooling application with REST APIs and MySQL database</li>
 												<li>Implemented load balancing on containerized application deployed on an Amazon AWS EC2 instance</li>
 											</ul>
 										</details>
-										<details> <summary>Sports analytics with Hadoop</summary>
+										<h4>Sports analytics with Hadoop</h4>
+										<details> <summary></summary>
 											<ul>
 												<li>Performed analysis on an Indian Premier League dataset using MapReduce</li>
 												<li>Devised algorithm for ranking players to identify most prolific batsman at each venue based on impact using PageRank, Spark and Streaming Spark libraries</li>
